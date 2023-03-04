@@ -27,6 +27,10 @@ header a {
     text-decoration: none;
 }
 
+header a:hover {
+    text-decoration: underline;
+}
+
 main {
     padding: 20px;
 }

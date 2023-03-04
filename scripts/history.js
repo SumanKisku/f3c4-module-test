@@ -19,6 +19,7 @@ if(history.length == 0) {
 // clear search history
 clear.addEventListener("click", ()=> {
     localStorage.removeItem("history");
+    localStorage.removeItem("lastSearch");
     historyList.innerHTML =  `<h3 style="text-align:center;">Search History cleared</h3>`;
     setTimeout(()=> {
         historyList.innerHTML = "";
